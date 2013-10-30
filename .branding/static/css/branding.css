@@ -1,0 +1,130 @@
+.start-sidebar, .end-sidebar{
+  display: none;
+}
+
+.sidebar h2,
+.sidebar h3,
+.sidebar h4 {
+  text-align: center;
+  padding-top: 0px;
+  border-bottom: 1px solid #888;
+}
+
+.sidebar p {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.sidebar {
+  font-size: 10pt;
+  max-width: 400px;
+  float: right;
+  background-color: #ffd;
+  padding: 0px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #888;
+}
+
+#html-content {
+  width: 1400px;
+  height: 800px;
+  font: courier;
+}
+
+#atlas-title {
+  color: #000;
+  font-variant: small-caps;
+  font-size: 36pt;
+  font-family: serif;
+  float: right;
+  margin-left: 150px;
+  margin-top:  10px;
+}
+
+#group-listing {
+  font-variant: small-caps;
+}
+
+#buttonbar-edit-page {
+  float: left;
+}
+
+#buttonbar-page-global,
+#buttonbar-group-global {
+  float: right;
+  margin-left: 1000px;
+  margin-top: -20px;
+}
+
+footer {
+  float: right;
+  font-variant: small-caps;
+  padding-right: 20px;
+  padding-left: 5px;
+  padding-top: 3px;
+  padding-bottom: 2px;
+}
+
+#atlas-footer {
+  float: left;
+  padding-right: 20px;
+  padding-left: 5px;
+  padding-top: 3px;
+  padding-bottom: 2px;
+}
+
+.branding-header {
+  background-color: #fff;
+  color: #000;
+  width: 1200px;
+  height: 60px;
+  border-bottom: 3px solid #000;
+}
+
+.branding-header a {
+  text-decoration: none;
+  color: black;
+}
+
+.breadcrumbs {
+  font-variant: small-caps;
+  display: block;
+  margin-top: 0px;
+  padding-bottom: 10px;
+  width: 1200px;
+  border: 0px solid #000;
+}
+
+.breadcrumb-sep {
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+body {
+  color: black;
+}
+
+p,
+:not(#group-listing) li {
+  line-height: 125%;
+}
+
+p>code,
+li>code {
+  font-size: 10pt;
+  background-color: #eee;
+  border: 1px solid #aaa;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+pre.prettyprint {
+  padding: 15px;
+  background-color: #eee;
+}
+
+.freeki-branding-help, .freeki-plug{display:none;}
+
