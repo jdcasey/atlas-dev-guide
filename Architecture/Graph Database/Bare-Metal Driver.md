@@ -44,7 +44,11 @@ TITLE: Bare-Metal Driver
 3. Run traverse with DFS/BFS algorithm as needed by Traverse. On each successive relationship:
     0. Process relationship overrides to account for selected GAVs (relocations)
     1. construct filter from parent path
-    2. if filter accepts current path, cache it in the view and move on
+    2. if filter accepts current path, cache it in the view's associated visibility instance `GraphVisibility.cachePathAcceptance(path, acceptingFilter)`:
+         0. Create visibility if non-existent, map view -> visibility in driver
+         1. include all relationships in path
+         2. map `path.getEndGAV()` -> path
+         3. map path -> acceptingFilter
 4. Repeat for #passes expressed by Traverse
 
 ### Add Relationship
