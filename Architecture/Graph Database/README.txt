@@ -1,0 +1,1 @@
+This is a marker file for a freeki content group. You can add pages to this group through the UI.
