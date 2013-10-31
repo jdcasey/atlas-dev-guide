@@ -12,6 +12,8 @@
     <application-desc main-class="org.commonjava.freeki.cli.WebstartMain">
          <argument>--clone</argument>
          <argument>https://github.com/jdcasey/atlas-dev-guide.git</argument>
+         <argument>--content</argument>
+         <argument>@user.home/atlas-dev-guide.EDITABLE</argument>
      </application-desc>
      <security>
         <all-permissions/>

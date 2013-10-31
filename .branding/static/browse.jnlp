@@ -13,6 +13,8 @@
          <argument>--read-only</argument>
          <argument>--clone</argument>
          <argument>https://github.com/jdcasey/atlas-dev-guide.git</argument>
+         <argument>--content</argument>
+         <argument>@user.home/atlas-dev-guide.READ_ONLY</argument>
      </application-desc>
      <security>
         <all-permissions/>
