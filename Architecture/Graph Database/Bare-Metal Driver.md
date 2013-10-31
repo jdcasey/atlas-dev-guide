@@ -41,13 +41,14 @@ TITLE: Bare-Metal Driver
 1. Get view roots.
 2. Get view filter.
 3. Run traverse with DFS/BFS algorithm as needed by Traverse. On each successive relationship:
-    0. Process relationship overrides to account for selectedGAVs (relocations)
-    1. **For view filter:** construct `filter` from `parentPath` using iterative calls to `accept()` and `getChildFilter()`
-    2. if `filter` accepts current path, cache it in the view's associated visibility instance `GraphVisibility.cachePathAcceptance(path, acceptingFilter)`:
+    1. Process relationship overrides to account for selectedGAVs (relocations)
+    2. **For view filter:** construct `filter` from `parentPath` using iterative calls to `accept()` and `getChildFilter()`
+    3. if `filter` accepts current path, cache it in the view's associated visibility instance `GraphVisibility.cachePathAcceptance(path, acceptingFilter)`:
          1. Create visibility if non-existent, map `view -> visibility` in driver
          2. map `path.getEndGAV() -> path`
          3. map `path -> acceptingFilter`
-    3. Process via Traversal API calls for traversal instance passed into the method.
+    4. Process via Traversal API calls for traversal instance passed into the method.
+    5. **TODO:** What about paths NOT accepted by passed-in traverse instance, which HAVE been accepted by view filter??
 4. Repeat for #passes expressed by Traverse
 
 ### Add Relationship
