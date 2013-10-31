@@ -34,7 +34,11 @@ TITLE: Bare-Metal Driver
 3. Iterate paths, calling Traversal api with each path
 4. Repeat for #passes expressed by Traverse
 
-**TODO:** How can we sort cached paths for DFS/BFS?
+<div id="t1" class="start-todo"></div>
+#### TODO
+
+How can we sort cached paths for DFS/BFS?
+<div class="end-todo"></div>
 
 #### Without cached paths
 
