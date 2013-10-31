@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="" href="">
+    <information>
+        <title>Atlas Developer Guide - READ-ONLY</title>
+        <vendor>John Casey</vendor>
+        <offline-allowed/>
+    </information>
+    <resources>
+        <j2se version="1.7+" href="http://java.sun.com/products/autodl/j2se"/>
+        <jar size="15706847" href="http://localhost:9080/aprox/api/1.0/group/public/org/commonjava/freeki/freeki-vertx-server/0.5-SNAPSHOT/freeki-vertx-server-0.5-20131031.183528-5.jar" main="true" />
+    </resources>
+    <application-desc main-class="org.commonjava.freeki.cli.WebstartMain">
+         <argument>--read-only</argument>
+         <argument>--clone</argument>
+         <argument>https://github.com/jdcasey/atlas-dev-guide.git</argument>
+     </application-desc>
+     <security>
+        <all-permissions/>
+     </security>
+     <update check="background"/>
+</jnlp>
