@@ -48,8 +48,14 @@ TITLE: Bare-Metal Driver
          2. map `path.getEndGAV() -> path`
          3. map `path -> acceptingFilter`
     4. Process via Traversal API calls for traversal instance passed into the method.
-    5. **TODO:** What about paths NOT accepted by passed-in traverse instance, which HAVE been accepted by view filter??
 4. Repeat for #passes expressed by Traverse
+
+<div id="t2" class="start-todo"></div>
+####TODO
+
+What about paths NOT accepted by passed-in traverse instance, which HAVE been accepted by view filter??
+<div class="end-todo"></div>
+
 
 ### Add Relationship
 
