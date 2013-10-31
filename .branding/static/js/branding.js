@@ -23,6 +23,18 @@ $('#page-content').on( 'contentUpdate', function(){
   
   $('.start-sidebar').remove();
   $('.end-sidebar').remove();
+  
+  $('.start-todo').each(function(){
+    var id = $(this).attr('id');
+    if ( seen.indexOf(id) < 0 ) {
+      seen.push(id);
+
+      $(this).nextUntil('.end-todo').wrapAll('<div class="todo" id="wrapped-' + id + '"></div>');
+    }
+  });
+  
+  $('.start-todo').remove();
+  $('.end-todo').remove();
 });
 
 var htmlButton = '<button id="html-button">Show HTML</button>';

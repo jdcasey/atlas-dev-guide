@@ -1,7 +1,10 @@
-.start-sidebar, .end-sidebar{
+.start-sidebar, .end-sidebar, .start-todo, .end-todo{
   display: none;
 }
 
+.todo h2,
+.todo h3,
+.todo h4,
 .sidebar h2,
 .sidebar h3,
 .sidebar h4 {
@@ -10,6 +13,7 @@
   border-bottom: 1px solid #888;
 }
 
+.todo p,
 .sidebar p {
   padding-left: 5px;
   padding-right: 5px;
@@ -20,6 +24,17 @@
   max-width: 400px;
   float: right;
   background-color: #ffd;
+  padding: 0px;
+  padding-bottom: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 1px solid #888;
+}
+
+.todo {
+  font-size: 10pt;
+/*  max-width: 400px;*/
+  background-color: #faa;
   padding: 0px;
   padding-bottom: 20px;
   margin-top: 20px;
