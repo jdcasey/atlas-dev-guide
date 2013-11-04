@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jnlp spec="1.0+" codebase="" href="">
+<jnlp spec="1.0+" codebase="https://github.com/jdcasey/atlas-dev-guide/raw/master/.branding/static/" href="https://github.com/jdcasey/atlas-dev-guide/raw/master/.branding/static/browse.jnlp">
     <information>
         <title>Atlas Developer Guide - READ-ONLY</title>
         <vendor>John Casey</vendor>
