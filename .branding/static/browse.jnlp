@@ -7,7 +7,7 @@
     </information>
     <resources>
         <j2se version="1.7+" href="http://java.sun.com/products/autodl/j2se"/>
-        <jar size="15774209" href="http://repo.maven.apache.org/maven2/org/commonjava/freeki/freeki-vertx-server/0.5/freeki-vertx-server-0.5.jar" main="true" download="eager" />
+        <jar size="15774350" href="http://repo.maven.apache.org/maven2/org/commonjava/freeki/freeki-vertx-server/0.5.1/freeki-vertx-server-0.5.1.jar" main="true" download="eager" />
     </resources>
     <application-desc main-class="org.commonjava.freeki.cli.WebstartMain">
          <argument>--read-only</argument>
