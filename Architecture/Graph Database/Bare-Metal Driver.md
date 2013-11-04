@@ -58,6 +58,8 @@ How can we sort cached paths for DFS/BFS?
 ####TODO
 
 What about paths NOT accepted by passed-in traverse instance, which HAVE been accepted by view filter??
+
+Maybe the solution is a Traversal that wraps the view filter AND the passed-in Traversal, and will only delegate to the passed-in instance when its filter matches...but anything that matches the view filter will be traversed by the wrapper for the purposes of caching a complete set of matching paths in the view.
 <div class="end-todo"></div>
 
 
