@@ -7,7 +7,7 @@
     </information>
     <resources>
         <j2se version="1.7+" href="http://java.sun.com/products/autodl/j2se"/>
-        <jar size="15706847" href="http://localhost:9080/aprox/api/1.0/group/public/org/commonjava/freeki/freeki-vertx-server/0.5-SNAPSHOT/freeki-vertx-server-0.5-20131031.183528-5.jar" main="true" />
+        <jar size="15774204" href="http://repo.maven.apache.org/maven2/org/commonjava/freeki/freeki-vertx-server/0.5/freeki-vertx-server-0.5.jar" main="true" />
     </resources>
     <application-desc main-class="org.commonjava.freeki.cli.WebstartMain">
          <argument>--clone</argument>
